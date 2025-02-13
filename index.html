@@ -4,27 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly Learning Journal</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .cover-container {
+            position: relative;
+            height: 50vh;
+            overflow: hidden;
+            transition: height 0.3s ease;
+        }
+        .cover-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: height 0.3s ease;
+        }
+        .cover-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 2rem;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .content {
+            position: relative;
+            z-index: 10;
+            margin-top: -50px;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #f1f1f1;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+    <script>
+        window.addEventListener("scroll", function() {
+            let cover = document.querySelector(".cover-container");
+            let image = document.querySelector(".cover-container img");
+            let scrollValue = window.scrollY;
+            
+            cover.style.height = Math.max(30, 50 - scrollValue / 20) + "vh";
+            image.style.height = Math.max(30, 50 - scrollValue / 20) + "vh";
+        });
+    </script>
 </head>
 <body class="bg-gray-100 text-gray-900">
-    <div class="max-w-3xl mx-auto p-6">
-        <img src="back.jpg" alt="Cover Photo" class="w-full rounded-lg shadow-md mb-4">
-        <h1 class="text-3xl font-bold mb-4">Weekly Learning Journal</h1>
-        
-        <div class="bg-white p-4 rounded-lg shadow-md">
-            <h2 class="text-xl font-semibold">Week [Number]: [Title]</h2>
-            <p class="mt-2">[Provide a concise summary of the key concepts, ideas, or skills covered in this week's module.]</p>
-        </div>
-        
-        <div class="bg-white p-4 rounded-lg shadow-md mt-4">
-            <h2 class="text-xl font-semibold">Related Resource</h2>
-            <p class="mt-2">[Summarize the resource and explain how it enhances your understanding of the module's content.]</p>
-        </div>
-
-        <div class="bg-white p-4 rounded-lg shadow-md mt-4">
-            <h2 class="text-xl font-semibold">Peer Question</h2>
-            <p class="mt-2">[Develop an open-ended question that encourages discussion among peers.]</p>
-        </div>
+    <div class="cover-container">
+        <img src="cover.jpg" alt="Cover Photo">
+        <div class="cover-title">Weekly Learning Journal</div>
     </div>
+    
+    <div class="max-w-3xl mx-auto content">
+        <div id="weeks-container"></div>
+
+            <script>
+                let weeksContainer = document.getElementById("weeks-container");
+                let weeksHTML = "";
+
+                let weekTitles = [
+                    "Environmental Science",
+                    "Matter, Energy, & Life",
+                    "Ecosystems and the Biosphere",
+                    "Community and Population Ecology",
+                    "Conservation and Biodiversity",
+                    "Environmental Hazards & Human Health"
+                ]
+                for (let i = 1; i <= 13; i++) {
+                    weeksHTML += `
+                        <div class="bg-white p-4 rounded-lg shadow-md mt-4">
+                            <h2 class="text-xl font-semibold">
+                                <a href="week${i}.html" class="text-blue-600 hover:underline">
+                                    Week ${i}: ${weekTitles[i - 1]}
+                                </a>
+                            </h2>
+                        </div>
+                    `;
+                }
+
+                weeksContainer.innerHTML = weeksHTML;
+            </script>
+
+    </div>
+
+    <footer>
+        <p>Shivam | Student Number: 152275228 | Email: shivam10@myseneca.ca</p>
+    </footer>
 </body>
 </html>
