@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -108,5 +108,113 @@
     <footer>
         <p>Shivam | Student Number: 152275228 | Email: shivam10@myseneca.ca</p>
     </footer>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weekly Learning Journal</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .cover-container {
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+      transition: height 0.3s ease;
+    }
+    .cover-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: height 0.3s ease;
+    }
+    .cover-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+    .content {
+      position: relative;
+      z-index: 10;
+      margin-top: -50px;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #f1f1f1;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+
+  <script>
+    window.addEventListener("scroll", function () {
+      let cover = document.querySelector(".cover-container");
+      let image = document.querySelector(".cover-container img");
+      let scrollValue = window.scrollY;
+
+      cover.style.height = Math.max(30, 50 - scrollValue / 20) + "vh";
+      image.style.height = Math.max(30, 50 - scrollValue / 20) + "vh";
+    });
+  </script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="cover-container">
+    <img src="cover.jpg" alt="Cover Photo" />
+    <div class="cover-title">Weekly Learning Journal</div>
+  </div>
+
+  <div class="max-w-3xl mx-auto content">
+    <div id="weeks-container"></div>
+
+    <script>
+      fetch("weeksData.json")
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById("weeks-container");
+          let html = "";
+          const weeks = data.weeks;
+
+          for (let i = 1; i <= Object.keys(weeks).length; i++) {
+            html += `
+              <div class="bg-white p-4 rounded-lg shadow-md mt-4">
+                <h2 class="text-xl font-semibold">
+                  <a href="weeks/week.html?week=${i}" class="text-blue-600 hover:underline">
+                    Week ${i}: ${weeks[i].title}
+                  </a>
+                </h2>
+              </div>
+            `;
+          }
+
+          container.innerHTML = html;
+        })
+        .catch(error => {
+          console.error("Error loading weeksData.json:", error);
+          document.getElementById("weeks-container").innerText = "Error loading week data.";
+        });
+    </script>
+  </div>
+
+  <footer>
+    <p>Shivam | Student Number: 152275228 | Email: shivam10@myseneca.ca</p>
+  </footer>
 </body>
 </html>

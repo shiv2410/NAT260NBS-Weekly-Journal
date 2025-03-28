@@ -1,0 +1,122 @@
+{
+    "weeks": {
+      "1": {
+        "title": "Introduction to Environmental Science",
+        "summary": "This week focused on understanding environmental science, its key components, and its relevance in today's world. The chapter covered the scientific process and the importance of distinguishing between inductive and deductive reasoning in research. We also explored the concept of sustainability, addressing its social, political, and cultural challenges. The discussion extended to environmental ethics, emphasizing the moral responsibilities humans have toward nature. Additionally, the topic of environmental justice was introduced, highlighting the struggles faced by Indigenous communities and the disparities between developed and developing countries in dealing with environmental issues.",
+        "resourceTitle": "The Science Behind Sustainability",
+        "resourceSource": "National Geographic",
+        "resourceSummary": "This article explores the principles of sustainability and explains how scientific methods are used to address environmental challenges. It discusses real-world applications of environmental science in waste reduction, renewable energy, and climate action. The resource enhances understanding by linking scientific inquiry to practical solutions.",
+        "resourceLink": "https://www.nationalgeographic.com/environment",
+        "peerQuestion": "What are some ethical dilemmas that arise in environmental decision-making, and how can governments balance economic growth with sustainability?"
+      },
+      "2": {
+        "title": "Matter, Energy, & Life",
+        "summary": "[Summary for Week 2]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "3": {
+        "title": "Ecosystems and the Biosphere",
+        "summary": "[Summary for Week 3]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "4": {
+        "title": "Community and Population Ecology",
+        "summary": "[Summary for Week 4]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "5": {
+        "title": "Conservation and Biodiversity",
+        "summary": "[Summary for Week 5]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "6": {
+        "title": "Environmental Hazards & Human Health",
+        "summary": "[Summary for Week 6]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "7": {
+        "title": "Study Week",
+        "summary": "This is a dedicated study week for review, catching up on readings, or project preparation. No new content was introduced.",
+        "resourceTitle": "How to Study Effectively",
+        "resourceSource": "The Learning Scientists",
+        "resourceSummary": "Tips and research-backed techniques to help students improve retention and learning efficiency.",
+        "resourceLink": "https://www.learningscientists.org/blog/2016/6/23-1",
+        "peerQuestion": "What study strategies help you prepare best for assessments in environmental science?"
+      },
+      "8": {
+        "title": "Water Availability and Use",
+        "summary": "[Summary for Week 8]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "9": {
+        "title": "Food & Hunger",
+        "summary": "[Summary for Week 9]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "10": {
+        "title": "Conventional & Sustainable Agriculture",
+        "summary": "[Summary for Week 10]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "11": {
+        "title": "Air Pollution, Climate Change, & Ozone Layer",
+        "summary": "[Summary for Week 11]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "12": {
+        "title": "Conventional & Sustainable Energy",
+        "summary": "[Summary for Week 12]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      },
+      "13": {
+        "title": "Final Reflections",
+        "summary": "[Summary for Week 13]",
+        "resourceTitle": "[Resource Title]",
+        "resourceSource": "[Resource Source]",
+        "resourceSummary": "[Brief description of the resource]",
+        "resourceLink": "[https://example.com]",
+        "peerQuestion": "[Open-ended peer discussion question]"
+      }
+    }
+  }
+  

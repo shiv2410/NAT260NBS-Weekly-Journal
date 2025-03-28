@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weekly Learning Journal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #f1f1f1;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="container">
+    <h1 id="week-title" class="text-3xl font-bold mb-4"></h1>
+
+    <h2 class="text-xl font-semibold">Summary of Learning</h2>
+    <p id="week-summary" class="mt-2"></p>
+
+    <h2 class="text-xl font-semibold mt-4">Related Resource</h2>
+    <p><strong id="resource-title"></strong> - <span id="resource-source"></span></p>
+    <p id="resource-summary" class="mt-2"></p>
+    <a id="resource-link" href="#" target="_blank" class="text-blue-600 hover:underline">Read More</a>
+
+    <h2 class="text-xl font-semibold mt-4">Peer Question</h2>
+    <p id="peer-question" class="mt-2"></p>
+  </div>
+
+  <footer>
+    <p>Shivam | Student Number: 152275228 | Email: shivam10@myseneca.ca</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const weekNumber = params.get("week");
+
+    if (weekNumber) {
+      fetch("../weeksData.json")
+        .then(response => response.json())
+        .then(data => {
+          const weekData = data.weeks[weekNumber];
+
+          if (weekData) {
+            document.getElementById("week-title").innerText = `Week ${weekNumber}: ${weekData.title}`;
+            document.getElementById("week-summary").innerText = weekData.summary;
+            document.getElementById("resource-title").innerText = weekData.resourceTitle;
+            document.getElementById("resource-source").innerText = weekData.resourceSource;
+            document.getElementById("resource-summary").innerText = weekData.resourceSummary;
+            document.getElementById("resource-link").href = weekData.resourceLink;
+            document.getElementById("peer-question").innerText = weekData.peerQuestion;
+          } else {
+            document.getElementById("week-title").innerText = `Week ${weekNumber} data not found.`;
+          }
+        })
+        .catch(error => {
+          console.error("Error loading data:", error);
+          document.getElementById("week-title").innerText = "Error loading week data.";
+        });
+    } else {
+      document.getElementById("week-title").innerText = "No week selected.";
+    }
+  </script>
+</body>
+</html>
