@@ -2,58 +2,88 @@
     "weeks": {
       "1": {
         "title": "Introduction to Environmental Science",
-        "summary": "This week focused on understanding environmental science, its key components, and its relevance in today's world. The chapter covered the scientific process and the importance of distinguishing between inductive and deductive reasoning in research. We also explored the concept of sustainability, addressing its social, political, and cultural challenges. The discussion extended to environmental ethics, emphasizing the moral responsibilities humans have toward nature. Additionally, the topic of environmental justice was introduced, highlighting the struggles faced by Indigenous communities and the disparities between developed and developing countries in dealing with environmental issues.",
+        "summary": {
+          "text": "This week focused on understanding environmental science, its key components, and its relevance in today's world. The chapter covered the scientific process and the importance of distinguishing between inductive and deductive reasoning in research. We also explored the concept of sustainability, addressing its social, political, and cultural challenges. The discussion extended to environmental ethics, emphasizing the moral responsibilities humans have toward nature. Additionally, the topic of environmental justice was introduced, highlighting the struggles faced by Indigenous communities and the disparities between developed and developing countries in dealing with environmental issues.",
+          "question": "What does environmental justice truly mean, and why is it important in modern society?",
+          "response": "Environmental justice ensures that every individual, regardless of their background or income level, has equal protection from environmental risks and a voice in shaping the policies that affect their environment. This concept is essential in building a fair and sustainable future where no community is left behind."
+        },
         "resourceTitle": "The Science Behind Sustainability",
         "resourceSource": "National Geographic",
         "resourceSummary": "This article explores the principles of sustainability and explains how scientific methods are used to address environmental challenges. It discusses real-world applications of environmental science in waste reduction, renewable energy, and climate action. The resource enhances understanding by linking scientific inquiry to practical solutions.",
         "resourceLink": "https://www.nationalgeographic.com/environment",
         "peerQuestion": "What are some ethical dilemmas that arise in environmental decision-making, and how can governments balance economic growth with sustainability?"
-      },
+      }
+,
       "2": {
         "title": "Matter, Energy, & Life",
-        "summary": "[Summary for Week 2]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
+        "summary": {
+          "text": "This week explored the foundational concepts of matter, energy, and life. We learned about elements, the significance of carbon in biological systems, and the structure and function of cells—highlighting the differences between prokaryotic and eukaryotic cells. A major focus was on the process of photosynthesis, which plays a critical role in sustaining life and maintaining atmospheric balance.",
+          "question": "Why is the process of photosynthesis considered essential for both the survival of living organisms and the stability of Earth's atmosphere?",
+          "response": "Photosynthesis not only produces oxygen—necessary for respiration in most life forms and for forming the protective ozone layer—but also provides energy for nearly all ecosystems and acts as a source of carbon for the creation of organic molecules. Without it, life as we know it would not be possible."
+        },
+        "resourceTitle": "Photosynthesis: Foundation of Life on Earth",
+        "resourceSource": "Khan Academy",
+        "resourceSummary": "This resource provides a detailed breakdown of how photosynthesis works at a molecular level. It also explains the ecological importance of the process and how energy flows through ecosystems.",
+        "resourceLink": "https://www.khanacademy.org/science/biology/photosynthesis-in-plants",
+        "peerQuestion": "How might changes in atmospheric CO₂ levels affect the process of photosynthesis and ecosystems globally?"
       },
+
       "3": {
-        "title": "Ecosystems and the Biosphere",
-        "summary": "[Summary for Week 3]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
-      "4": {
-        "title": "Community and Population Ecology",
-        "summary": "[Summary for Week 4]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Ecosystems and the Biosphere",
+  "summary": {
+    "text": "This week introduced us to the structure and function of ecosystems, covering the various types of biomes found on Earth, both terrestrial and aquatic. We explored the flow of energy through ecosystems by analyzing food chains and food webs, as well as how organisms acquire energy and nutrients. A major portion of the week focused on biogeochemical cycles—specifically the cycles of water, carbon, nitrogen, phosphorus, and sulfur—and how human activities have disrupted them.",
+    "question": "How do human activities impact biogeochemical cycles, and why is it important to understand these disruptions?",
+    "response": "Human activities such as fossil fuel burning, deforestation, industrial agriculture, and waste discharge have significantly altered the natural cycling of carbon, nitrogen, phosphorus, and other key elements. These disruptions can lead to climate change, dead zones in oceans, poor air quality, and loss of biodiversity. Understanding these impacts is essential for developing strategies to mitigate environmental damage and restore balance in ecosystems."
+  },
+  "resourceTitle": "Biogeochemical Cycles",
+  "resourceSource": "Environmental Literacy Council",
+  "resourceSummary": "This resource offers a clear overview of the major biogeochemical cycles and explains the interconnected roles of living organisms, geological processes, and human actions. It provides diagrams and examples that enhance comprehension of complex systems.",
+  "resourceLink": "https://enviroliteracy.org/air-climate-weather/biogeochemical-cycles/",
+  "peerQuestion": "Which biogeochemical cycle do you think is most affected by human activity, and what can be done to reduce that impact?"
+}
+,
+     "4": {
+  "title": "Community and Population Ecology",
+  "summary": {
+    "text": "This week explored population dynamics, focusing on how ecologists measure population size, density, and distribution patterns—such as clumped, uniform, and random. We examined factors that influence population growth and regulation, including the concept of carrying capacity and how it may change over time. Special emphasis was placed on human population growth and the impact of expanding our own carrying capacity through technology, agriculture, and medical advancements.",
+    "question": "What are the potential long-term consequences of unchecked human population growth on the environment?",
+    "response": "Unchecked human population growth can lead to overconsumption of resources, increased pollution, habitat destruction, and biodiversity loss. As we push beyond the Earth’s natural carrying capacity, we risk degrading ecosystems and exhausting the very systems that support life. Sustainable planning and responsible resource management are essential to prevent long-term ecological collapse."
+  },
+  "resourceTitle": "Carrying Capacity and the Human Population",
+  "resourceSource": "PBS LearningMedia",
+  "resourceSummary": "This video lesson explains the concept of carrying capacity and explores how human innovation has allowed populations to grow beyond natural limits, while also presenting the risks of overshoot.",
+  "resourceLink": "https://www.pbslearningmedia.org/resource/envh10.sci.life.eco.lp_carryingcapacity/carrying-capacity/",
+  "peerQuestion": "How can modern societies balance human population growth with the need to preserve ecological balance and resources?"
+}
+,
       "5": {
-        "title": "Conservation and Biodiversity",
-        "summary": "[Summary for Week 5]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
-      "6": {
-        "title": "Environmental Hazards & Human Health",
-        "summary": "[Summary for Week 6]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Conservation and Biodiversity",
+  "summary": {
+    "text": "This week focused on the concept of biodiversity, its origins, and its immense importance to both ecosystems and human well-being. We explored how species evolve through natural selection, the benefits of biodiversity such as medicine and ecosystem services, and how threats like habitat loss, invasive species, hunting, and climate change are rapidly reducing biodiversity worldwide. Conservation efforts, including legislation and habitat restoration, were also introduced as ways to protect and preserve Earth's biological richness.",
+    "question": "Why is biodiversity important for human survival, and how do human activities threaten it?",
+    "response": "Biodiversity provides critical ecosystem services such as air and water purification, pollination, climate regulation, and genetic resources for agriculture and medicine. Human activities like deforestation, pollution, overhunting, and the introduction of invasive species disrupt ecosystems and threaten species survival. Protecting biodiversity is essential for maintaining a stable and resilient planet."
+  },
+  "resourceTitle": "Why Biodiversity Matters",
+  "resourceSource": "WWF (World Wildlife Fund)",
+  "resourceSummary": "This article outlines the value of biodiversity, the main threats it faces, and what can be done to protect it. It provides examples from ecosystems around the world and emphasizes the role humans play in both causing and solving the biodiversity crisis.",
+  "resourceLink": "https://www.worldwildlife.org/pages/why-is-biodiversity-important",
+  "peerQuestion": "What do you think is the most significant threat to biodiversity today, and how should it be addressed on a global scale?"
+}
+,
+     "6": {
+  "title": "Environmental Hazards & Human Health",
+  "summary": {
+    "text": "This week introduced the concept of environmental health and the many ways in which environmental conditions can affect human well-being. We explored various categories of environmental health risks, including chemical, biological, and physical hazards. The chapter also covered the emergence of new diseases, environmental toxicology, and how toxic substances interact with biological systems. Case studies such as the Love Canal disaster illustrated the consequences of environmental contamination and the importance of prevention and regulation.",
+    "question": "How do environmental contaminants affect public health, and why is it important to study toxicology in this context?",
+    "response": "Environmental contaminants can cause serious health problems ranging from respiratory illnesses to cancers, especially when exposure is chronic or widespread. Studying toxicology helps us understand how these substances behave in the body, what exposure levels are harmful, and how to regulate or remove these hazards. This knowledge is essential for creating policies that protect communities and ecosystems from long-term damage."
+  },
+  "resourceTitle": "What is Environmental Health?",
+  "resourceSource": "National Institute of Environmental Health Sciences (NIEHS)",
+  "resourceSummary": "This resource provides an overview of environmental health science, current environmental risks, and how research is being used to prevent disease and improve health outcomes.",
+  "resourceLink": "https://www.niehs.nih.gov/health/topics/index.cfm",
+  "peerQuestion": "How can governments and communities work together to reduce exposure to environmental toxins and promote healthier living conditions?"
+}
+,
       "7": {
         "title": "Study Week",
         "summary": "This is a dedicated study week for review, catching up on readings, or project preparation. No new content was introduced.",
@@ -64,59 +94,75 @@
         "peerQuestion": "What study strategies help you prepare best for assessments in environmental science?"
       },
       "8": {
-        "title": "Water Availability and Use",
-        "summary": "[Summary for Week 8]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Water Availability and Use",
+  "summary": {
+    "text": "This week focused on the global water cycle and the critical role it plays in supporting ecosystems and human life. We examined how the availability of fresh water is impacted by overuse, pollution, and climate change, and discussed the depletion of key reservoirs. We also explored the major types of water pollutants, their effects on water quality, and how water treatment and conservation strategies can help combat these challenges. The Aral Sea case study illustrated the severe consequences of poor water management.",
+    "question": "Why is freshwater availability becoming a global crisis, and what steps can be taken to address it?",
+    "response": "Freshwater scarcity is growing due to population growth, pollution, over-extraction, and climate change. To address this, we must invest in sustainable water management systems, improve infrastructure, reduce pollution, and promote global cooperation on transboundary water sources. Public awareness and conservation efforts are also crucial in preserving water for future generations."
+  },
+  "resourceTitle": "Global Water Crisis",
+  "resourceSource": "National Geographic",
+  "resourceSummary": "This article explores the causes and consequences of the global water crisis and showcases innovative solutions and policies being implemented worldwide to address water scarcity and pollution.",
+  "resourceLink": "https://www.nationalgeographic.com/environment/freshwater",
+  "peerQuestion": "What water conservation strategies do you think are most effective at the household, community, or national level?"
+}
+,
       "9": {
-        "title": "Food & Hunger",
-        "summary": "[Summary for Week 9]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Food & Hunger",
+  "summary": {
+    "text": "This week focused on the complex issue of food insecurity, its global drivers, and its relationship with poverty, conflict, and climate change. We also examined the importance of women's roles in ensuring food and nutritional security, especially in developing regions. Nutrient sources and dietary needs were discussed, along with the growing use of biotechnology and genetic engineering in food production—highlighting both the potential benefits and the ethical, environmental, and health risks involved.",
+    "question": "What are the potential benefits and risks of using genetic engineering to address global food insecurity?",
+    "response": "Genetic engineering can improve crop yields, resistance to pests and diseases, and tolerance to climate conditions, which may help combat food shortages. However, it also raises concerns about ecological balance, corporate control over seeds, biodiversity loss, and long-term health impacts. Careful regulation and transparent research are essential to balance innovation with safety."
+  },
+  "resourceTitle": "Feeding the World: How Genetic Engineering Can Help",
+  "resourceSource": "FAO (Food and Agriculture Organization)",
+  "resourceSummary": "This article provides a balanced overview of how biotechnology is being used to enhance global food security, including success stories, potential drawbacks, and regulatory considerations.",
+  "resourceLink": "https://www.fao.org/biotech/en/",
+  "peerQuestion": "Do you believe genetic engineering should play a central role in solving global hunger? Why or why not?"
+}
+,
       "10": {
-        "title": "Conventional & Sustainable Agriculture",
-        "summary": "[Summary for Week 10]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Conventional & Sustainable Agriculture",
+  "summary": {
+    "text": "This week explored the composition and function of soil in ecosystems, as well as how land use practices, particularly in agriculture, impact global environmental conditions. We examined the negative effects of conventional agriculture, including soil degradation, pesticide use, and pollution. The connection between persistent organic pollutants (POPs) and human health was also discussed. The chapter concluded with an introduction to sustainable agriculture practices, including organic farming, crop rotation, and integrated pest management as alternatives to conventional methods.",
+    "question": "How does sustainable agriculture differ from conventional methods, and why is it important for environmental and human health?",
+    "response": "Sustainable agriculture emphasizes long-term soil health, reduced chemical input, biodiversity, and minimal environmental impact, whereas conventional methods often rely on synthetic fertilizers and pesticides that can harm ecosystems and human health. Transitioning to sustainable practices is crucial to preserving soil fertility, reducing pollution, and producing healthier food while supporting the resilience of farming systems."
+  },
+  "resourceTitle": "Sustainable Agriculture: Definitions and Terms",
+  "resourceSource": "USDA National Agricultural Library",
+  "resourceSummary": "This resource defines sustainable agriculture, highlights its benefits, and provides examples of methods that conserve natural resources and reduce environmental impacts while supporting farmers and communities.",
+  "resourceLink": "https://www.nal.usda.gov/legacy/afsic/sustainable-agriculture-definitions-and-terms",
+  "peerQuestion": "What are some practical steps farmers or communities can take to shift from conventional to sustainable agriculture?"
+}
+,
       "11": {
-        "title": "Air Pollution, Climate Change, & Ozone Layer",
-        "summary": "[Summary for Week 11]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
+  "title": "Air Pollution, Climate Change, & Ozone Layer",
+  "summary": {
+    "text": "This week focused on understanding the causes and impacts of air pollution and climate change. We learned about the main sources and types of air pollutants, the greenhouse effect, and how human activities—such as fossil fuel combustion and deforestation—contribute to global warming. The chapter also addressed the depletion of the ozone layer, the causes of acid rain, and the observable effects of climate change on ecosystems and human communities. Policy responses and adaptation strategies were also discussed as necessary steps to combat this global issue.",
+    "question": "How do human activities contribute to climate change, and what strategies can be implemented to reduce their impact?",
+    "response": "Human activities like burning fossil fuels, industrial emissions, and deforestation increase greenhouse gases such as CO₂ and methane, trapping more heat in the atmosphere and accelerating climate change. To reduce this impact, we must transition to renewable energy, improve energy efficiency, reforest degraded lands, and implement global climate policies that promote sustainability and reduce carbon emissions."
+  },
+  "resourceTitle": "Climate Change: How Do We Know?",
+  "resourceSource": "NASA Climate",
+  "resourceSummary": "This NASA resource presents scientific evidence that supports human-caused climate change, including temperature records, rising CO₂ levels, shrinking ice sheets, and sea level rise.",
+  "resourceLink": "https://climate.nasa.gov/evidence/",
+  "peerQuestion": "What role should individuals, governments, and corporations play in reducing air pollution and combating climate change?"
+}
+,
       "12": {
-        "title": "Conventional & Sustainable Energy",
-        "summary": "[Summary for Week 12]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      },
-      "13": {
-        "title": "Final Reflections",
-        "summary": "[Summary for Week 13]",
-        "resourceTitle": "[Resource Title]",
-        "resourceSource": "[Resource Source]",
-        "resourceSummary": "[Brief description of the resource]",
-        "resourceLink": "[https://example.com]",
-        "peerQuestion": "[Open-ended peer discussion question]"
-      }
+  "title": "Conventional & Sustainable Energy",
+  "summary": {
+    "text": "This week covered the history of human energy use and the increasing challenges of continuing to rely on fossil fuels. We explored the environmental consequences of non-renewable energy sources such as coal, oil, and natural gas, including air pollution, greenhouse gas emissions, and ecosystem disruption. The chapter also introduced renewable energy sources like solar, wind, hydro, and geothermal, highlighting their environmental advantages and the factors driving their global adoption. Understanding the trade-offs between energy types is essential for building a sustainable energy future.",
+    "question": "What are the key environmental advantages of renewable energy compared to fossil fuels, and what barriers exist to widespread adoption?",
+    "response": "Renewable energy sources produce little to no greenhouse gases, reduce air and water pollution, and have a smaller ecological footprint compared to fossil fuels. However, challenges to widespread adoption include high initial costs, storage limitations, infrastructure needs, and policy or market resistance. Overcoming these barriers requires coordinated investment, innovation, and public support."
+  },
+  "resourceTitle": "Renewable Energy Explained",
+  "resourceSource": "U.S. Energy Information Administration (EIA)",
+  "resourceSummary": "This resource outlines how different types of renewable energy work, their benefits and limitations, and current trends in adoption across the globe.",
+  "resourceLink": "https://www.eia.gov/energyexplained/renewable-sources/",
+  "peerQuestion": "What renewable energy source do you believe holds the most promise for your country, and why?"
+}
+
     }
   }
   

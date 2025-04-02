@@ -46,16 +46,20 @@
   <script>
     const params = new URLSearchParams(window.location.search);
     const weekNumber = params.get("week");
-
+  
     if (weekNumber) {
       fetch("../weeksData.json")
         .then(response => response.json())
         .then(data => {
           const weekData = data.weeks[weekNumber];
-
+  
           if (weekData) {
             document.getElementById("week-title").innerText = `Week ${weekNumber}: ${weekData.title}`;
-            document.getElementById("week-summary").innerText = weekData.summary;
+            document.getElementById("week-summary").innerHTML = `
+              <p>${weekData.summary.text}</p>
+              <p class="mt-4"><strong>Question:</strong> ${weekData.summary.question}</p>
+              <p class="mt-2"><strong>Response:</strong> ${weekData.summary.response}</p>
+            `;
             document.getElementById("resource-title").innerText = weekData.resourceTitle;
             document.getElementById("resource-source").innerText = weekData.resourceSource;
             document.getElementById("resource-summary").innerText = weekData.resourceSummary;
@@ -73,5 +77,6 @@
       document.getElementById("week-title").innerText = "No week selected.";
     }
   </script>
+  
 </body>
 </html>
