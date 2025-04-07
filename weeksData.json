@@ -66,7 +66,7 @@
   "resourceTitle": "Why Biodiversity Matters",
   "resourceSource": "WWF (World Wildlife Fund)",
   "resourceSummary": "This article outlines the value of biodiversity, the main threats it faces, and what can be done to protect it. It provides examples from ecosystems around the world and emphasizes the role humans play in both causing and solving the biodiversity crisis.",
-  "resourceLink": "https://www.worldwildlife.org/pages/why-is-biodiversity-important",
+  "resourceLink": "https://wwf.panda.org/wwf_news/?135301/Environment-Day-June-5-Why-does-biodiversity-matter",
   "peerQuestion": "What do you think is the most significant threat to biodiversity today, and how should it be addressed on a global scale?"
 }
 ,
@@ -85,14 +85,19 @@
 }
 ,
       "7": {
-        "title": "Study Week",
-        "summary": "This is a dedicated study week for review, catching up on readings, or project preparation. No new content was introduced.",
-        "resourceTitle": "How to Study Effectively",
-        "resourceSource": "The Learning Scientists",
-        "resourceSummary": "Tips and research-backed techniques to help students improve retention and learning efficiency.",
-        "resourceLink": "https://www.learningscientists.org/blog/2016/6/23-1",
-        "peerQuestion": "What study strategies help you prepare best for assessments in environmental science?"
-      },
+  "title": "Study Week",
+  "summary": {
+    "text": "This week served as a valuable pause in the term—an opportunity to reflect on the concepts we've covered so far, reinforce foundational knowledge, and identify any gaps before moving forward. It was a time to revisit key topics like environmental justice, biodiversity, ecosystems, and energy systems, all while preparing for upcoming assessments or project milestones.",
+    "question": "How can taking intentional time for review and reflection enhance long-term understanding of environmental science?",
+    "response": "Study weeks give students the chance to synthesize and connect concepts across modules, which is essential in a field like environmental science where topics are deeply interconnected. Pausing to reflect and review helps reinforce retention, sharpen understanding, and reduce anxiety before assessments. It also allows space to engage with materials more deeply and prepare thoughtful contributions to discussions or projects."
+  },
+  "resourceTitle": "How to Study Effectively",
+  "resourceSource": "The Learning Scientists",
+  "resourceSummary": "Tips and research-backed techniques to help students improve retention and learning efficiency, including spaced practice, retrieval strategies, and active learning habits.",
+  "resourceLink": "https://www.learningscientists.org/blog/2016/6/23-1",
+  "peerQuestion": "What study strategies help you prepare best for assessments in environmental science?"
+}
+,
       "8": {
   "title": "Water Availability and Use",
   "summary": {
